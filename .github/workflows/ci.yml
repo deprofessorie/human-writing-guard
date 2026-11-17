@@ -20,3 +20,5 @@ jobs:
         run: |
           python scripts/style_learner.py show
           python scripts/analyze_text.py --file README.md
+          python scripts/citation_guard.py styles
+          python scripts/citation_guard.py check --file README.md

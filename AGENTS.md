@@ -12,9 +12,14 @@ Read [SKILL.md](SKILL.md) before drafting or editing any substantive prose where
    ```bash
    python scripts/style_learner.py learn --file <sample.txt> --domain <domain>
    ```
-3. Audit your draft before returning it to the user:
+3. Audit your draft for AI tells before returning it to the user:
    ```bash
    python scripts/analyze_text.py --file <draft.txt>
+   ```
+4. For cited work, format references or audit citation integrity & patchwriting (Purdue OWL):
+   ```bash
+   python scripts/citation_guard.py format --style apa --source <sources.json>
+   python scripts/citation_guard.py check --file <draft.txt> --style apa
    ```
 
 Do not apply these prose rules to casual conversation, shell commands, or pure code generation.
