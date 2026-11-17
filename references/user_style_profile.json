@@ -1,0 +1,26 @@
+{
+  "primary_domain": "academic",
+  "samples_learned": 0,
+  "total_words_analyzed": 0,
+  "last_updated": "2026-11-17T05:12:34.820590+00:00",
+  "metrics": {
+    "avg_sentence_length": null,
+    "sentence_length_std": null,
+    "short_sentence_ratio": null,
+    "long_sentence_ratio": null,
+    "avg_word_length": null,
+    "type_token_ratio": null,
+    "contraction_rate_per_1k_words": null,
+    "first_person_rate_per_1k_words": null,
+    "punctuation_per_1k_chars": {
+      "comma": null,
+      "semicolon": null,
+      "colon": null,
+      "em_dash": null,
+      "parentheses": null,
+      "exclamation": null
+    }
+  },
+  "preferred_transitions": {},
+  "avoided_ai_words_verified_absent": true
+}
